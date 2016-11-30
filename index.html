@@ -6,12 +6,22 @@ layout: default
 
   <h1 class="page-heading">SSD Slide Decks for Trainers</h1>
 
-  <ul class="post-list">
+  <table>
     {% for deck in site.decks %}
-      <li>
-        <a class="post-link" href="{{ deck.url | prepend: site.baseurl }}">{{ deck.title }}</a>
-      </li>
+      <tr>
+        <td>
+          {{ deck.title }}
+        </td>
+        <td>
+          <a href="{{ deck.url | prepend: site.baseurl }}">View</a>
+        </td>
+        <td>
+          <a href="{{ deck.path | prepend: site.repo_url }}">Edit on Github</a>
+        </td>
+      </tr>
     {% endfor %}
-  </ul>
+  </table>
+
+  Press <strong>p</strong> while viewing a slide deck to enter <a href="https://github.com/gnab/remark/wiki/Presentation-mode">presentation mode</a> and view notes.
 
 </div>

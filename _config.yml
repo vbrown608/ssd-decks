@@ -10,6 +10,7 @@ title: SSD Slide Decks for Trainers
 description: >
   A collection of slide decks for surveillance self-defense trainings.
 baseurl: "" # the subpath of your site, e.g. /blog
+repo_url: https://github.com/vbrown608/ssd-decks/blob/master/
 
 # Build settings
 markdown: kramdown
