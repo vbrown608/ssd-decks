@@ -8,3 +8,10 @@ Slide decks are `.html` files in `_decks`.
 * Mark the start of a new slide with `---`.
 * Add presenter's notes by placing text beneath three question marks (`???`).
 * See full documentation here: https://github.com/gnab/remark/wiki
+
+## Running it locally
+
+1. Install Ruby for your OS.
+2. Git clone and cd into the project directory.
+3. `gem install jekyll`
+4. `jekyll serve`
